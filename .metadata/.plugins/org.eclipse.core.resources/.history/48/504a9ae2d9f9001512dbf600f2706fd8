@@ -13,7 +13,6 @@ public class RectangleTest {
 	
 	/** Declaring necessary test objects for {@link Rectangle} */
 	Rectangle rect1, rect2;
-	Point point;
 
 	/**
 	 * Initializes the necessary test objects for the test cases to use.
@@ -22,18 +21,8 @@ public class RectangleTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		point = new Point(2.0, 5.0);
 		rect1 = new Rectangle(new Point(2.0, 2.0), new Point(4.0, 7.0));
 		rect2 = new Rectangle(new Point(2.0, 6.0), new Point(4.0, 3.0));
-	}
-	
-	/**
-	 * Test for the getArea() method of the {@link Rectangle} class.
-	 */
-	@Test
-	public void testPoint() {
-		assertEquals(2.0, point.x,0.001);
-		assertEquals(5.0, point.y,0.001);
 	}
 
 	/**
