@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="VendingMachine" project="VendingMachine" tests="23" started="23" failures="0" errors="0" ignored="0">
+  <testsuite name="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0">
+    <testcase name="testVendingMachineItem" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0"/>
+    <testcase name="testGetPrice" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0"/>
+    <testcase name="testVendingMachineItemLessThanZeroPrice" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0"/>
+    <testcase name="testGetName" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0"/>
+    <testcase name="testChangeGetPrice" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0"/>
+    <testcase name="testChangeGetName" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineItemTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0">
+    <testcase name="testMakePurchaseEmptyCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testAddItem" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testGetItemEmptyCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testRemoveItemBadCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testMakePurchaseBadCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testRemoveItemEmptyCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testInsertMoney" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testGetItem" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testMakePurchase" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testGetBalance" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testInsertMoneyLessThanZero" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testRemoveItem" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testAddItemInvailidCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testAddItemSlotOccupied" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testMakePurchaseNotEnoughMoney" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testReturnChange" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="testGetItemBadCode" classname="edu.towson.cis.cosc603.project4.vendingmachine.VendingMachineTest" time="0.0"/>
+  </testsuite>
+</testrun>

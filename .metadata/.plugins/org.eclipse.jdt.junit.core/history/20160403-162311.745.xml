@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="src (1)" project="Rectangle" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="edu.towson.cis.cosc603.project4.rectangle.RectangleTest" time="0.0">
+    <testcase name="testPoint" classname="edu.towson.cis.cosc603.project4.rectangle.RectangleTest" time="0.0"/>
+    <testcase name="testGetArea" classname="edu.towson.cis.cosc603.project4.rectangle.RectangleTest" time="0.0"/>
+    <testcase name="testGetDiagonal" classname="edu.towson.cis.cosc603.project4.rectangle.RectangleTest" time="0.0"/>
+  </testsuite>
+</testrun>

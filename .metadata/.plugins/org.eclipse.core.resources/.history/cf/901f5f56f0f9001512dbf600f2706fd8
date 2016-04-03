@@ -1,0 +1,85 @@
+package edu.towson.cis.cosc603.project4.vendingmachine;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class VendingMachineTest {
+	
+	VendingMachineItem vendingItem;
+	VendingMachine vendingMachine;
+
+	@Before
+	public void setUp() throws Exception {
+		vendingMachine = new VendingMachine();
+		vendingItem = new VendingMachineItem("name", 1.0);
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		vendingItem = null;
+		vendingMachine = null;
+	}
+
+	@Test
+	public void testAddItem() {
+		vendingMachine.addItem(vendingItem, "A");
+	}
+	
+	@Test (expected=VendingMachineException.class)
+	public void testAddItemSlotOccupied() {
+		vendingMachine.addItem(vendingItem, "A");
+		VendingMachineItem newVendingItem = new VendingMachineItem("newName", 1.0);
+		vendingMachine.addItem(newVendingItem, "A");
+	}
+	
+	@Test (expected=VendingMachineException.class)
+	public void testAddItemInvailidCode() {
+		vendingMachine.addItem(vendingItem, "X");
+	}
+
+	@Test
+	public void testGetItem() {
+		vendingMachine.addItem(vendingItem, "A");
+		VendingMachineItem testVendItem = vendingMachine.getItem("A");
+		assertEquals(vendingItem, testVendItem);
+	}
+	
+	@Test (expected=VendingMachineException.class)
+	public void testGetItemBadCode() {
+		vendingMachine.getItem("X");
+	}
+	
+	@Test (expected=VendingMachineException.class)
+	public void testGetItemEmptyCode() {
+		vendingMachine.getItem("B");
+	}
+
+	@Test
+	public void testRemoveItem() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInsertMoney() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetBalance() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMakePurchase() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testReturnChange() {
+		fail("Not yet implemented");
+	}
+
+}
