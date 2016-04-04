@@ -13,25 +13,17 @@ public class VendingMachineItemTest {
 	
 	VendingMachineItem vendingItem;
 
-	/**
-	 * Initializes the necessary test objects for the test cases to use.
-	 *
-	 * @throws Exception the exception
-	 */
+	
 	@Before
 	public void setUp() throws Exception {
 		vendingItem = new VendingMachineItem("name", 1.5);
 	}
 
-	/**
-	 * Cleans up test objects after a test case is executed.
-	 */
 	@After
 	public void tearDown() throws Exception {
 		vendingItem = null;
 	}
 
-	
 	@Test
 	public void testVendingMachineItem() {
 		vendingItem = new VendingMachineItem("newName", 1.0);

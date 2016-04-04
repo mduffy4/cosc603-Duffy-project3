@@ -1,6 +1,3 @@
-/*
- * 
- */
 package edu.towson.cis.cosc603.project4.vendingmachine;
 
 import static org.junit.Assert.*;
@@ -14,27 +11,18 @@ public class VendingMachineTest {
 	VendingMachineItem vendingItem;
 	VendingMachine vendingMachine;
 
-	/**
-	 * Initializes the necessary test objects for the test cases to use.
-	 *
-	 * @throws Exception the exception
-	 */
 	@Before
 	public void setUp() throws Exception {
 		vendingMachine = new VendingMachine();
 		vendingItem = new VendingMachineItem("name", 1.0);
 	}
 
-	/**
-	 * Cleans up test objects after a test case is executed.
-	 */
 	@After
 	public void tearDown() throws Exception {
 		vendingItem = null;
 		vendingMachine = null;
 	}
 
-	
 	@Test
 	public void testAddItem() {
 		vendingMachine.addItem(vendingItem, "A");

@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+
+import edu.towson.cis.cosc603.project4.rectangle.Rectangle;
 
 public class VendingMachineItemTest {
 	
@@ -31,7 +34,6 @@ public class VendingMachineItemTest {
 		vendingItem = null;
 	}
 
-	
 	@Test
 	public void testVendingMachineItem() {
 		vendingItem = new VendingMachineItem("newName", 1.0);

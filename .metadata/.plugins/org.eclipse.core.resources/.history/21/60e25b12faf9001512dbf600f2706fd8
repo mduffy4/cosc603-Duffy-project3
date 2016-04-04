@@ -34,7 +34,6 @@ public class VendingMachineTest {
 		vendingMachine = null;
 	}
 
-	
 	@Test
 	public void testAddItem() {
 		vendingMachine.addItem(vendingItem, "A");
